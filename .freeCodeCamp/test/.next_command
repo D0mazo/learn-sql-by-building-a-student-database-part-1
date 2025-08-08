@@ -34,3 +34,8 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo hello SQL
 psql --username=freecodecamp --dbname=postgres
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+echo -n 6832fbf2-6e25-4488-b506-a8b371ed897f
+cat /proc/self/environ
+echo -n 6832fbf2-6e25-4488-b506-a8b371ed897f
